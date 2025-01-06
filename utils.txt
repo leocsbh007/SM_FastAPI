@@ -15,3 +15,6 @@ venv\Scripts\activate
 No macOS/Linux:
 python3 -m venv venv
 source venv/bin/activate
+
+
+https://api.chucknorris.io/jokes/search?query=woman
