@@ -2,8 +2,8 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/somar/{num1}&{num2}")
-def somar(num1:int, num2:int):
+@app.get("/somar")
+async def somar(num1:int, num2:int):
     # num1 = 10
     # num2 = 20
     soma = num1+num2

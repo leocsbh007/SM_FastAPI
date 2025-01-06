@@ -3,3 +3,15 @@
 
 pip freeze > requirements.txt
 pip install -r requirements.txt
+
+
+2. Criar e ativar um ambiente virtual
+Recomenda-se criar um ambiente virtual para isolar as dependências do projeto. Execute os seguintes comandos:
+
+No Windows:
+python -m venv venv
+venv\Scripts\activate
+
+No macOS/Linux:
+python3 -m venv venv
+source venv/bin/activate
