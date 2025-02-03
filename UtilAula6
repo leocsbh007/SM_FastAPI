@@ -1,0 +1,7 @@
+Passo a Passo para subir a aula 6 do curso.
+Tem um requisito: Um BD deve estar ativo.
+
+1 - Criando ambiente virtual: python -m venv .venv
+2 - Ativando o ambiente virtural: venv/Scripts/activate
+3 - Instalando dependencias: pip install -r requirements.txt
+4 - Executanto o motor do fast-api: uvicorn main:app --reload
